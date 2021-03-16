@@ -1,0 +1,28 @@
+.shop{
+    background-image:url(/img/shop.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y:center;
+    
+}
+
+.shop img{
+   
+    opacity: 85%;
+}
+
+.navbar, .navbar-nav{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    
+}
+li a{
+    color: whitesmoke;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
