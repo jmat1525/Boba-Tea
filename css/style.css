@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap');
+
+
+html body{
+    background-color: #353b40;
+    font-family:'Nunito', sans-serif; ;
+}
+
+
 .shop{
-    background-image:url(/img/shop.jpg) ;
+    background-image:url(/img/about.jpg) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,7 +22,7 @@
 }
 
 .navbar, .navbar-nav{
-    text-align: center;
+   
     font-size: 30px;
     color: white;
     
@@ -22,7 +31,23 @@ li a{
     color: whitesmoke;
     text-align: center;
 }
+ul li{
+    font-size: 30px;
+}
 h2{
     text-align: center;
     text-decoration: underline;
 }
+
+
+.carousel img{
+    height: 550px;
+}
+
+.contact h5{
+    line-height: 3;
+}
+/* .contact{
+    position: relative;
+    top: 30px;
+} */
