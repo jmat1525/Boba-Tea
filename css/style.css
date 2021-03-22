@@ -7,12 +7,57 @@ html body{
 }
 
 
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  .order{
+      
+     
+  }
+
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+.social{
+    list-style-type: inherit;
+}
+
+.title{
+    background-color: #111;
+    width: 55%;
+    
+}
+
 .shop{
     background-image:url(/img/about.jpg) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y:center;
+    width: 100%;
+    height: 800px;
     
 }
 
