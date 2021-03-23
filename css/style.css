@@ -1,52 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap');
 
 
-html body{
-    background-color: #353b40;
+ body{
+    background-color: bisque;
     font-family:'Nunito', sans-serif; ;
 }
 
 
-.sidenav {
-    height: 100%;
-    width: 200px;
+nav {
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    background-color: black;
     position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    padding-top: 20px;
-  }
-  
-  .sidenav a {
-    padding: 6px 6px 6px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
+    height: 100%;
+    overflow: auto;
+    
+ }
+ nav a {
     display: block;
-  }
-  
-  .sidenav a:hover {
-    color: #f1f1f1;
-  }
-  .order{
-      
-     
-  }
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 16px;
+    text-decoration: none;
+ }
+ nav a.selected {
+    background-color: rgb(15, 189, 20);
+    color: rgb(255, 255, 255);
+ }
+ nav a:hover:not(.selected) {
+    background-color:pink;
+    color: black;
+ }
 
-  .main {
-    margin-left: 160px; /* Same as the width of the sidenav */
-    font-size: 28px; /* Increased text to enable scrolling */
-    padding: 0px 10px;
-  }
-.social{
-    list-style-type: inherit;
+#order:hover{
+    background-color: greenyellow;
+    color: black;
 }
 
+.main {
+margin-left: 150px;
+padding: 1px 16px;
+height: 900px;
+}
+
+footer{
+margin-left: 150px;
+padding: px 10px;
+height: 900px;
+
+}
+.social a{
+   text-align: center;
+   display:flex;
+  align-items:center;
+  justify-content:center;
+   
+}
+
+
 .title{
-    background-color: #111;
-    width: 55%;
+    
+    color: pink;
+    width: 60%;
+    text-align: right;
     
 }
 
@@ -72,18 +90,36 @@ html body{
     color: white;
     
 }
+.m-tea{
+    background-color: rgb(33, 134, 192);
+    color: black;
+}
+.smooth{
+    background-color: aquamarine;
+    color: black;
+}
+.top{
+    background-color: aqua;
+    color: black;
+}
 li a{
     color: whitesmoke;
     text-align: center;
+    
 }
 ul li{
     font-size: 30px;
+    list-style: none;
+    
 }
 h2{
     text-align: center;
     text-decoration: underline;
 }
 
+.carousel{
+width: 100%;
+}
 
 .carousel img{
     height: 550px;
@@ -92,7 +128,4 @@ h2{
 .contact h5{
     line-height: 3;
 }
-/* .contact{
-    position: relative;
-    top: 30px;
-} */
+
