@@ -2,70 +2,32 @@
 
 
  body{
-    background-color: bisque;
+    background-color: rgb(15, 15, 15);
     font-family:'Nunito', sans-serif; ;
 }
 
-
-nav {
-    margin: 0;
-    padding: 0;
-    width: 150px;
-    background-color: black;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
-    
- }
- nav a {
-    display: block;
-    color: rgb(255, 255, 255);
-    font-weight: bolder;
-    font-size: 20px;
-    padding: 16px;
-    text-decoration: none;
- }
- nav a.selected {
-    background-color: rgb(15, 189, 20);
-    color: rgb(255, 255, 255);
- }
- nav a:hover:not(.selected) {
-    background-color:pink;
-    color: black;
- }
-
-#order:hover{
-    background-color: greenyellow;
-    color: black;
+.jumbotron{
+   background-color: black;
+  
+}
+.logo{
+    opacity: 85%;
+}
+.text{
+    font-size: 45px;
+}
+.hash{
+    font-size: 25px;
+    color: hotpink;
 }
 
-.main {
-margin-left: 150px;
-padding: 1px 16px;
-height: 900px;
-}
 
-footer{
-margin-left: 150px;
-padding: px 10px;
-height: 900px;
-
-}
 .social a{
    text-align: center;
    display:flex;
   align-items:center;
   justify-content:center;
    
-}
-
-
-.title{
-    
-    color: pink;
-    width: 60%;
-    text-align: right;
-    
 }
 
 .shop{
@@ -98,17 +60,17 @@ height: 900px;
     background-color: aquamarine;
     color: black;
 }
-.top{
-    background-color: aqua;
-    color: black;
-}
-li a{
-    color: whitesmoke;
-    text-align: center;
+.card-body{
+    background-color: black;
     
 }
+
+li {
+    color: whitesmoke;
+    text-align: center;
+}
 ul li{
-    font-size: 30px;
+    font-size: 20px;
     list-style: none;
     
 }
@@ -117,15 +79,28 @@ h2{
     text-decoration: underline;
 }
 
-.carousel{
-width: 100%;
+.menu{
+    text-align: center;
+    background-color: black;
+    color: hotpink;
+    
 }
 
-.carousel img{
-    height: 550px;
+.menu h1{
+    font-size: 90px;
 }
 
-.contact h5{
-    line-height: 3;
+.flower{
+    height: 49%;
 }
+.drink{
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+    color: hotpink;
+}
+
+
+
+
 
