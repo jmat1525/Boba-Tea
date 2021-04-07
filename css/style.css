@@ -5,20 +5,35 @@
     background-color: rgb(15, 15, 15);
     font-family:'Nunito', sans-serif; ;
 }
+.navbar{
+    background-color: black;   
+}
+.navbar-item, a{
+    color: whitesmoke;
+}
 
 .jumbotron{
    background-color: black;
+   background:url(https://media.giphy.com/media/l3V0hSwrWKBGIM2vS/giphy.gif);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
   
 }
 .logo{
-    opacity: 85%;
+    opacity: 95%;
 }
-.text{
+.boba{
     font-size: 45px;
+    color: whitesmoke;
+    background-color: black;
 }
 .hash{
     font-size: 25px;
     color: hotpink;
+    background-color: black;
+    width: 50%;
+   
 }
 
 
@@ -82,7 +97,7 @@ h2{
 .menu{
     text-align: center;
     background-color: black;
-    color: hotpink;
+    color: rgb(168, 5, 155);
     
 }
 
@@ -99,6 +114,8 @@ h2{
     text-decoration: underline;
     color: hotpink;
 }
+
+
 
 
 
