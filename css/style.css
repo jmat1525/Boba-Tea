@@ -3,7 +3,7 @@
 
  body{
     background-color: rgb(15, 15, 15);
-    font-family:'Nunito', sans-serif; ;
+    font-family: monospace;
 }
 .navbar{
     background-color: black;   
@@ -106,7 +106,7 @@ h2{
 }
 
 .flower{
-    height: 49%;
+    
 }
 .drink{
     text-align: center;
